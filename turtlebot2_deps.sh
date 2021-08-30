@@ -9,14 +9,14 @@ git clone https://github.com/turtlebot/turtlebot_apps.git
 git clone https://github.com/turtlebot/turtlebot_msgs.git
 git clone https://github.com/turtlebot/turtlebot_interactions.git
 
-#git clone https://github.com/toeklk/orocos-bayesian-filtering.git
-#cd orocos-bayesian-filtering/orocos_bfl/
-#./configure
-#make
-#sudo make install
-#cd ../
-#make
-#cd ../
+git clone https://github.com/toeklk/orocos-bayesian-filtering.git
+cd orocos-bayesian-filtering/orocos_bfl/
+./configure
+make
+make install
+cd ../
+make
+cd ../
 
 git clone https://github.com/udacity/robot_pose_ekf
 git clone https://github.com/ros-perception/depthimage_to_laserscan.git
