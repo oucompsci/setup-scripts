@@ -13,7 +13,7 @@ catkin_make
 Then execute the following command inside your workspace:
 
 ```
-rsync /usr/local/turtlebot/ .
+rsync -rl /usr/local/turtlebot/ .
 catkin_make
 ```
 

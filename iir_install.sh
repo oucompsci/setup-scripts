@@ -35,6 +35,6 @@ source /opt/ros/melodic/setup.bash
 echo "Initializing rosdep"
 
 rosdep init
-sudo -u {SUDO_USER:-${USER}} rosdep update
+sudo -u ${SUDO_USER:-${USER}} rosdep update
 
 echo "ROS Installed"
