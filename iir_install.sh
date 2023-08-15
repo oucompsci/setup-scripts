@@ -25,6 +25,7 @@ apt install -y ros-melodic-desktop-full \
 	python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential \
 	ros-melodic-move-base* ros-melodic-map-server* ros-melodic-amcl* ros-melodic-navigation* \
 	ros-melodic-kobuki* ros-melodic-ecl-streams \
+ 	python-catkin-tools rosbash \
 	ros-melodic-depthimage-to-laserscan ros-melodic-joy ros-melodic-yocs-velocity-smoother
 
 echo "Sourcing ROS setup script"
